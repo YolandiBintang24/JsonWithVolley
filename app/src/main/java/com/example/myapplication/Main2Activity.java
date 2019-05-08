@@ -70,7 +70,7 @@ public class Main2Activity extends AppCompatActivity {
         progressDialog.setMessage("Please wait");
         progressDialog.setCancelable(false);
         progressDialog.show();
-        String reqUrl = "http://210.210.154.65/MyProject/public/kontak";
+        String reqUrl = "http://210.210.154.65/api/kontak";
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, reqUrl, null, new Response.Listener<JSONObject>() {
             @Override
